@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//WebContent/css/comment.css=UTF-8
+encoding//src/com/es/plailing/account/controller/AccountController.java=UTF-8
+encoding//src/com/es/plailing/check/controller/CheckController.java=UTF-8
+encoding//src/com/es/plailing/comment/controller/CommentController.java=UTF-8
+encoding//src/com/es/plailing/entity/User.java=UTF-8
+encoding//src/com/es/plailing/update/controller/UpdateController.java=UTF-8
+encoding//src/com/es/plailing/upload1/controller/Upload1Controller.java=UTF-8
+encoding//src/com/es/plailing/util/BaseDao.java=UTF-8

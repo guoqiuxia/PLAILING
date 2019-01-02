@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+.mainlist{padding:10px;}
+.mainl{ width:61px; float:left; margin-left:20px; margin-top:10px;}
+.mainr{ width:300px; height:240px; float:left; margin-left:20px;}
+.mainr h2{ font-family:"微软雅黑"; font-size:18px; color:#000000; line-height:35px; margin-top:10px;}
+.mainr h3{ font-size:14px; color:#000; line-height:25px; margin-top:10px;}
+.paybtn a{ display:block; width:105px; height:30px; background:#ffa100; border:1px solid #dc8c03; font-size:13px; text-align:center; color:#ffffff; float:left; margin-left:15px; line-height:30px; margin-top:10px;}
+/* Button base */
+.Button{
+	position:relative;
+	display:inline-block;
+	padding:.45em .825em .45em;
+	text-align:center;
+	line-height:1em; 
+	border:1px solid transparent;
+	cursor:pointer; 
+	 
+	border-radius:.3em; 
+	-moz-border-radius:.3em; 
+	-webkit-border-radius:.3em; 
+	
+	-moz-transition-property:color, -moz-box-shadow, text-shadow; 
+	-moz-transition-duration:.05s; 
+	-moz-transition-timing-function:ease-in-out; 
+	-webkit-transition-property:color, -webkit-box-shadow, text-shadow; 
+	-webkit-transition-duration:.05s; 
+	-webkit-transition-timing-function:ease-in-out; 
+	
+	box-shadow:0 1px rgba(255,255,255,0.8), inset 0 1px rgba(255,255,255,0.35); 
+	-moz-box-shadow:0 1px rgba(255,255,255,0.8), inset 0 1px rgba(255,255,255,0.35); 
+	-webkit-box-shadow:0 1px rgba(255,255,255,0.8), inset 0 1px rgba(255,255,255,0.35);
+}
+
+.Button:hover {text-decoration:none;}
+.Button strong {position:relative; z-index:2;}
+
+.Button{
+	display:block;border:1px solid;opacity:1;color:#fff;font-size:22px;width:240px;text-decoration:none;margin:20px auto;
+	
+	border-radius:.3em;
+	-moz-border-radius:.3em;
+	-webkit-border-radius:.3em;
+	
+	box-shadow:inset 0 1px rgba(255,255,255,0.35);
+	-moz-box-shadow:inset 0 1px rgba(255,255,255,0.35);
+	-webkit-box-shadow:inset 0 1px rgba(255,255,255,0.35);
+	
+	-moz-transition-property:opacity;
+	-moz-transition-duration:0.5s;
+	-moz-transition-timing-function:ease-in-out;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:0.5s;
+	-webkit-transition-timing-function:ease-in-out;
+}
+
+.Button:hover span{
+	-moz-transition-property:opacity;
+	-moz-transition-duration:0.05s;
+	-moz-transition-timing-function:linear;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:0.05s;
+	-webkit-transition-timing-function:linear;
+}
+.Button:active span{
+	-moz-transition:none;
+	-webkit-transition:none;
+}
+
+/* blue Button */
+.blueButton{color:#fcf9f9; text-shadow:0 -1px rgba(34,25,25,0.5);}
+.blueButton:hover {color:#fff; text-shadow:0 -1px rgba(34,25,25,0.3);}
+.blueButton:active {color:#f2f0f0; text-shadow:0 -1px rgba(34,25,25,0.6);}
+
+.blueButton{
+	border-color:#015E91;
+	background-color:#3693D5;
+	background:-moz-linear-gradient(center top , #54B1EB, #47A0E0 50%, #419FE1 50%, #3683D5);
+	background:-o-linear-gradient(top left, #54B1EB, #47A0E0 50%, #419FE1 50%, #3683D5);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#54B1EB), to(#47A0E0), color-stop(.5,#419FE1),color-stop(.5,#3683D5));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#54B1EB', endColorstr='#3683D5');
+}
+
+.blueButton:hover{
+	border-color:#0366AD;
+	background-color:#3EA1D6;
+	background:-moz-linear-gradient(center top, #5EB4EA, #61A1EE 50%, #59A5EB 50%, #3691E6);
+	background:-o-linear-gradient(top left, #5EB4EA, #61A1EE 50%, #59A5EB 50%, #3691E6);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#5EB4EA), to(#61A1EE), color-stop(.5,#59A5EB),color-stop(.5,#3691E6));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5EB4EA', endColorstr='#3691E6');
+}
+
+.blueButton:active{
+	border-color:#013B6A;
+	background-color:#3089C8;
+	background:-moz-linear-gradient(center top, #4B9CDD, #4189D5 50%, #3D8BD3 50%, #3093C8);
+	background:-o-linear-gradient(top left, #4B9CDD, #4189D5 50%, #3D8BD3 50%, #3093C8);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4B9CDD), to(#4189D5), color-stop(.5,#3D8BD3),color-stop(.5,#3093C8));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4B9CDD', endColorstr='#3093C8');
+}
+
+.blueButton.Button18:hover{
+	box-shadow:0 1px rgba(255, 255, 255, 0.8), 0 1px rgba(255, 255, 255, 0.35) inset, 0 0 10px rgba(82, 162, 235, 0.25);
+	-moz-box-shadow:0 1px rgba(255, 255, 255, 0.8), 0 1px rgba(255, 255, 255, 0.35) inset, 0 0 10px rgba(82, 162, 235, 0.25);
+	-webkit-box-shadow:0 1px rgba(255, 255, 255, 0.8), 0 1px rgba(255, 255, 255, 0.35) inset, 0 0 10px rgba(82, 162, 235, 0.25);
+}
+.blueButton.Button18:active{
+	box-shadow:0 1px 2px rgba(34, 25, 25, 0.25) inset, 0 0 3px rgba(82, 202, 235, 0.35);
+	-moz-box-shadow:0 1px 2px rgba(34, 25, 25, 0.25) inset, 0 0 3px rgba(82, 202, 235, 0.35);
+	-webkit-box-shadow:0 1px 2px rgba(34, 25, 25, 0.25) inset, 0 0 3px rgba(82, 202, 235, 0.35);	
+}
+
+.background{position:fixed;_position:absolute;z-index:998;top:0px;left:0px;width:100%;_width:expression(document.documentElement.clientWidth);height:100%;_height:expression(document.documentElement.clientHeight);background:rgb(50,50,50);background:rgba(0,0,0,0.5);}
+.webox{position:fixed;_position:absolute;z-index:999;padding:8px;border:solid 1px #000;_background:#777;background:rgba(10,10,10,0.5);}
+.webox #inside{background-color:#FFFFFF;height:240px;}
+.webox #inside h1{-moz-user-select:none;-webkit-user-select:none;position:relative;display:block;margin:0;padding:0;font-size:13px;line-height:30px;height:30px;padding-left:5px;font-family:Arial;background:#F1F7FC;font-weight:normal;cursor:move;font-weight:800;color:#F1F7FC;}
+.webox #inside h1 a{position:absolute;display:block;right:6px;margin-top:6px;top:0px;font-size:14px;background-image:url(../images/close.fw.png);background-repeat:no-repeat;background-position:center top;width:17px;height:17px;cursor:pointer;display:inline-block;}
+.webox #inside h1 a:hover{background-position:center bottom;}

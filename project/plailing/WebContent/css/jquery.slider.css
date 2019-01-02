@@ -1,0 +1,93 @@
+/* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+
+
+/* line 32, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+
+/* line 13, ../sass/jquery.slider.scss */
+.cpt-slider {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+/* line 18, ../sass/jquery.slider.scss */
+.cpt-slider .ul-slider {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  font-size: 0;
+}
+/* line 23, ../sass/jquery.slider.scss */
+.cpt-slider .ul-slider .li-slider {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: 1020px;
+  height: 100%;
+  list-style: none;
+}
+
+/* line 60, ../sass/jquery.slider.scss */
+.cpt-slider .slider-origin {
+  position: absolute;
+  bottom: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  font-size: 0;
+  position: absolute;
+  height: 10px;
+  line-height: 10px;
+}
+/* line 68, ../sass/jquery.slider.scss */
+.cpt-slider .slider-origin .span-origin {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: 10px;
+  height: 10px;
+  background: #aaa;
+  font-size: 14px;
+  margin: 4px;
+  cursor: pointer;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 77, ../sass/jquery.slider.scss */
+.cpt-slider .slider-origin .span-origin.active {
+  background: red;
+  width: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
